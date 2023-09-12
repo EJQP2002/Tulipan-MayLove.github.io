@@ -1,2 +1,2 @@
-# Tulipan-MayLove.github.io
+# Tulipan-MayLove
 Tulipán
