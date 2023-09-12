@@ -1,0 +1,632 @@
+* {
+    font-family: "Bell MT";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(50, 4, 75);
+}
+
+.rain {
+    position: relative;
+}
+
+.animated-image {
+    border-radius: 10px;
+    margin-left: 8px;
+    width: 80%;
+    height: 20vh;
+    /* Ajusta el tamaño de la imagen según tus preferencias */
+    /* Ajusta el tamaño de la imagen según tus preferencias */
+    animation: bounce 5s ease infinite;
+    /* Agrega la animación llamada 'bounce' */
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Cambia la distancia de la animación vertical */
+    }
+}
+
+
+
+body {
+    margin: 0px;
+}
+
+
+.name {
+    background: linear-gradient(45deg, rgb(32, 114, 214) 0%, rgb(78, 140, 213) 100%);
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    padding-left: 10px;
+}
+
+img {
+    height: 60px;
+}
+
+/*****************************************************************************/
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0px;
+    font-size: 0px;
+    padding: 0px;
+}
+
+.col {
+    display: inline-block;
+    width: 19%;
+}
+
+.heart {
+    /*content*/
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 120vh;
+    z-index: -1;
+}
+
+.circle {
+    /*circle2*/
+    width: 90px;
+    height: 90px;
+    content: '';
+    background-color: crimson;
+    position: absolute;
+    margin: 35px 0px 0px 30px;
+    transform: rotate(-135deg);
+}
+
+.circle::after {
+    /*square*/
+    width: 90px;
+    height: 90px;
+    content: '';
+    background-color: crimson;
+    border-radius: 45px;
+    position: absolute;
+    margin: 44px 0px;
+}
+
+.circle::before {
+    /*circle1*/
+    width: 90px;
+    height: 90px;
+    content: '';
+    background-color: crimson;
+    position: absolute;
+    z-index: 1;
+    margin: 0px 44px;
+    border-radius: 45px;
+}
+
+/******************************/
+.heart.heart1 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart1 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart1 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+
+.heart.heart2 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 3s;
+}
+
+.heart.heart2 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 3s;
+}
+
+.heart.heart2 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 3s;
+}
+
+.heart.heart3 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 6s;
+}
+
+.heart.heart3 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 6s;
+}
+
+.heart.heart3 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 6s;
+}
+
+.heart.heart4 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 9s;
+}
+
+.heart.heart4 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 9s;
+}
+
+.heart.heart4 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 9s;
+}
+
+.heart.heart5 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 5s;
+}
+
+.heart.heart5 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 5s;
+}
+
+.heart.heart5 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 5s;
+}
+
+.heart.heart6 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart6 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart6 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart7 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart7 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart7 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart8 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart8 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart8 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart9 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart9 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart9 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart10 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart10 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart10 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart11 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart11 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart11 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart12 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart12 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart12 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart13 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart13 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart13 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart14 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart14 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart14 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart15 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart15 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart15 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart16 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart16 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart16 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart17 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart17 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart17 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart18 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart18 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart18 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart19 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart19 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart19 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart20 .circle {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart20 .circle::before {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+.heart.heart20 .circle::after {
+    animation: 12s colors infinite;
+    animation-delay: 0s;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #ff0000;
+    }
+
+    10% {
+        background-color: #fb0000;
+    }
+
+    20% {
+        background-color: #01fff2;
+    }
+
+    30% {
+        background-color: #fbd204;
+    }
+
+    40% {
+        background-color: #ffee02;
+    }
+
+    50% {
+        background-color: #ff0000;
+    }
+
+    60% {
+        background-color: #fb0000;
+    }
+
+    70% {
+        background-color: #01fff2;
+    }
+
+    80% {
+        background-color: #fbd204;
+    }
+
+    90% {
+        background-color: #ffee02;
+    }
+
+    100% {
+        background-color: #ffee02;
+    }
+}
+
+/******************************/
+.halfMoon {
+    background: transparent;
+    height: 50px;
+    width: 25px;
+    position: absolute;
+    border-radius: 76px 0px 0px 0px;
+    margin: 82px 81px;
+    transform: rotate(45deg);
+}
+
+.halfMoon::before {
+    height: 50px;
+    width: 25px;
+    border-radius: 76px 0px 0px 0px;
+    content: 'ggergerg';
+    position: absolute;
+    margin: 45px -40px;
+    transform: rotate(78.5deg);
+}
+
+.halfMoon::after {
+    height: 50px;
+    width: 25px;
+    border-radius: 0px 0px 0px 76px;
+    content: 'ggergerg';
+    margin: 3px 7px;
+    position: absolute;
+    transform: rotate(369deg);
+}
+
+.heart1 {
+    animation: 10s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 5;
+}
+
+.heart2 {
+    animation: 18s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 9;
+}
+
+.heart3 {
+    animation: 16s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 8s;
+}
+
+.heart4 {
+    animation: 14s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 7s;
+}
+
+.heart5 {
+    animation: 12s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 6s;
+}
+
+.heart5 {
+    animation: 14s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 7s;
+}
+
+.heart6 {
+    animation: 16s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 8s;
+}
+
+.heart7 {
+    animation: 18s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 9s;
+}
+
+.heart8 {
+    animation: 10s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 5s;
+}
+
+.heart9 {
+    animation: 18s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 9s;
+}
+
+.heart10 {
+    animation: 16s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 8s;
+}
+
+.heart11 {
+    animation: 14s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 7s;
+}
+
+.heart12 {
+    animation: 12s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 6s;
+}
+
+.heart13 {
+    animation: 14s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 7s;
+}
+
+.heart14 {
+    animation: 16s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 8s;
+}
+
+.heart15 {
+    animation: 18s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 9s;
+}
+
+.heart16 {
+    animation: 10s Linear-motion infinite, MoveLeft 117s8s infinite;
+    animation-delay: 5s;
+}
+
+.heart17 {
+    animation: 18s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 9s;
+}
+
+.heart18 {
+    animation: 16s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 8s;
+}
+
+.heart19 {
+    animation: 14s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 7s;
+}
+
+.heart20 {
+    animation: 12s Linear-motion infinite, MoveLeft 17s infinite;
+    animation-delay: 6s;
+}
+
+@keyframes Linear-motion {
+    0% {
+        top: 100vh;
+    }
+
+    100% {
+        top: -20vh;
+    }
+}
+
+@keyframes MoveLeft {
+    0% {
+        margin-left: 0%;
+    }
+
+    50% {
+        margin-left: 50%;
+    }
+
+    100% {
+        margin-left: 0%;
+    }
+}
