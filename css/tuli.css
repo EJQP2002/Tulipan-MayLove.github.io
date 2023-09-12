@@ -23,7 +23,7 @@ body {
     height: 20vh;
     /* Ajusta el tamaño de la imagen según tus preferencias */
     /* Ajusta el tamaño de la imagen según tus preferencias */
-    animation: bounce 5s ease infinite;
+    animation: bounce 3.5s ease infinite;
     /* Agrega la animación llamada 'bounce' */
 }
 
